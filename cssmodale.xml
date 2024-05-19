@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.0" type="plugin" group="content" method="upgrade">
+    <name>Modale full-CSS a l'aide d'un shortcode</name>
+    <author>Sébastien LHUILLIER</author>
+    <creationDate>Avril 2024</creationDate>
+    <copyright></copyright>
+    <license></license>
+    <authorEmail>sebastien.lhuillier+joomla@gmail.com</authorEmail>
+    <authorUrl>www.sebastien-lhuillier.com</authorUrl>
+    <version>1.0</version>
+    <description>
+      Créer une fenetre modale avec le shortcode {cssmodale "Titre" "Contenu au format HTML" "Fermer"}
+    </description>
+    <files>
+        <filename>cssmodale.xml</filename>
+        <filename plugin="cssmodale">cssmodale.php</filename>
+    </files>
+    <config>
+    </config>
+</extension>
